@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+header {
+    font-size: 62.5%;
+}
+
+#header {
+    background-image: url(./imagenes/Foto\ Home.png);
+    background-size: cover;
+    width: 100%;
+    height: 70rem;
+    font-size: 2rem;
+}
+/*Cada ajustando el tamaño del logo de martivans*/
+.navbar-brand img {
+    width: 8rem;
+    margin-left: 8rem;
+}
+.nav-item {
+    margin: 0.5rem;
+}
+
