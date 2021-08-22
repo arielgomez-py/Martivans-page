@@ -23,32 +23,45 @@ header {
 .navbar-brand img {
     width: 17rem;
     height: 18.7rem;
-    margin-left: 8rem;
+    margin-left: 5rem;
     
 }
+/*Estilos de los elementos de la barra de navegacion*/
 .nav-item {
     margin: 0.5rem;
     color: rgb(255, 255, 255);
     font-size: 2rem;
     font-family: 'Oswald', sans-serif;
-    
-
-    /*font-size: 20px;
-    font-family: "Oswald";
-    color: rgb(255, 255, 255);
-    line-height: 1.2;
-    text-align: center;
-    position: absolute;
-    left: 1108.87px;
-    top: 86.524px;
-    z-index: 13;*/
-
 }
+
 .navbar-nav {
-    margin-right: 10rem;
+    margin-right: 2rem;
 }
 
-.overlay .container {
+.text-form {
+    padding-top: 8rem;
+    padding-left: 8rem;
+       
+}
+.text-form h1 {
+    font-family: 'Oswald', sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 4.5rem;
+}
+
+.text-form p {
+    font-size: 1.7rem;
+    font-family: "Lato",sans-serif;
+    color: rgb(255, 255, 255);
+    line-height: 1.667;
+    padding-top: 1rem;
+}
+.text-form button {
+    font-size: 2rem;
+    color: white;
+    width: 18rem;
+}
+
+.alquiler_campers_caravanas {
     color: white;
 }
-
