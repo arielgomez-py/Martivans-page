@@ -19,7 +19,7 @@ header {
     height: 70rem;
     font-size: 2rem;
 }
-/*Cada ajustando el tamaño del logo de martivans*/
+/* ajustando el tamaño del logo de martivans*/
 .navbar-brand img {
     width: 17rem;
     height: 18.7rem;
@@ -37,9 +37,10 @@ header {
 .navbar-nav {
     margin-right: 2rem;
 }
-
+/* Agregando margin y padding al contenedor (text-form) que contiene el texto informativo
+y el formulario del header*/
 .text-form {
-    padding-top: 8rem;
+    padding-top: 6rem;
     padding-left: 8rem;
        
 }
@@ -60,8 +61,46 @@ header {
     font-size: 2rem;
     color: white;
     width: 18rem;
+    font-family: 'Oswald', sans-serif;
 }
 
 .alquiler_campers_caravanas {
     color: white;
+    height: 38rem;
+    padding-top: 2rem;
 }
+.alquiler_campers_caravanas h2 {
+    color: black;
+    font-size: 3rem;
+    font-family: 'Oswald', sans-serif;
+    line-height: 1.2;
+    text-align: left;
+    z-index: 113;
+}
+
+.formulario {
+    background-color:white;
+    margin-left: 15.5rem;
+}
+.formulario span {
+    color: black;
+    font-size: 1.2rem;
+}
+
+/* Cambiando el tamanno a los checkbox*/
+.checkbox .form-check {
+    font-size: 1.1rem;
+    color: black; 
+}
+
+.checkbox {
+    padding-bottom: 2rem;
+}
+
+/* Dandole estilos al boton buscar del formulario*/
+.boton_buscar .btn {
+    width: 36.8rem;
+    font-family: 'Oswald', sans-serif;
+}
+
+
