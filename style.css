@@ -51,12 +51,14 @@ y el formulario del header*/
 }
 
 .text-form p {
+    /*Estilos del texto informativo*/
     font-size: 1.7rem;
     font-family: "Lato",sans-serif;
     color: rgb(255, 255, 255);
     line-height: 1.667;
     padding-top: 1rem;
 }
+/*Estilos del boton EMPEZAR*/
 .text-form button {
     font-size: 2rem;
     color: white;
@@ -101,6 +103,12 @@ y el formulario del header*/
 .boton_buscar .btn {
     width: 36.8rem;
     font-family: 'Oswald', sans-serif;
+}
+
+.alquilar {
+    width: 15rem;
+    color: white;
+    font-size: 1.8rem;
 }
 
 

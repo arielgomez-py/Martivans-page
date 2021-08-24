@@ -52,7 +52,7 @@
       </div>
       <div class="container-fluid text-form">
         <div class="row">
-          <div class="col-12 col-lg-6">
+          <div class="col-lg-6 d-none d-lg-block">
             <h1>Alquiler de autocaravanas</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mattis mollis fermentum.
               Vivamus et est eu mauris accumsan convallis. Integer sit amet est massa.
@@ -62,6 +62,7 @@
             </p>
             <button type="button" class="btn btn-info">EMPEZAR</button>
           </div>
+          <!--Esta columna tiene un contenedor con varios formularios, que estan dentro de las columnas-->
           <div class="col-12 col-lg-4 formulario">
             <div class="container alquiler_campers_caravanas">
               <div class="row">
@@ -70,11 +71,11 @@
                 </div>
               </div>
               <div class="row">
-                <div class="col">
+                <div class="col-md-6">
                   <span>Fecha recogida</span>
                   <input type="date" class="form-control">
                 </div>
-                <div class="col">
+                <div class="col-md-6 ">
                   <span>Fecha entrega</span>
                   <input type="date" class="form-control">
                 </div>
@@ -86,7 +87,6 @@
                   <select class="form-select" id="inlineFormSelectPref">
                     <option selected></option>
                     <option value="1">Todas</option>
-                    
                   </select>
                 </div>
               </div>
@@ -97,9 +97,9 @@
                   <select class="form-select" id="inlineFormSelectPref">
                     <option selected></option>
                     <option value="1">One</option>
-                    
                   </select>
               </div>
+              <!--En esta fila hay una sola columna que contiene los checkboxs-->
               <div class="row">
                 <div class="col checkbox">
                   <div class="form-check form-check-inline">
@@ -123,10 +123,10 @@
                     <label class="form-check-label" for="inlineCheckbox2">5 plazas</label>
                   </div>
                 </div>
-                
               </div>
+              <!--En esta fila esta el boton de BUSCAR-->
               <div class="row">
-                <div class="col-12 boton_buscar">
+                <div class="col-10 col-lg-12 boton_buscar">
                   <button type="button" class="btn btn-info mx-auto">BUSCAR</button>
                 </div>
               </div>
@@ -136,6 +136,99 @@
         </div>
       </div> 
     </header>
+
+    <!--Main-->
+    <main>
+      <!--seccion para elegir el modelo de la carvana -->
+      <section id="tus-nuevos-compañeros-de-viaje" class="pt-4 pb-3">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col  text-center">
+              <h2 class="text-uppercase">Tus nuevos compañeros de viaje</h2>
+              <small>Flota de Autocaravanas y campers para alquilar</small>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <!--carrusel slide para elegir el modelo de caravana, la imagen y el boton de alquilar-->
+              <div id="carousel" class="carousel slide" data-bs-touch="false" data-bs-interval="false">
+                <div class="carousel-inner">
+                  <!--Cada elemento del carrusel posee un container de una fila con 4 columnas.
+                    Cada columna tiene: una foto de la caravana, el modelo y un boton-->
+                  <div class="carousel-item active">
+                    <div class="container">
+                      <div class="row">
+                        <div class="col">
+                          <img src="./imagenes/Caravana.png" class="d-block w-100" alt="...">
+                          <h3>Modelo No123</h3>
+                          <button type="button" class="alquilar btn btn-info mx-auto">ALQUILAR</button>
+                        </div>
+                        <div class="col">
+                          <img src="./imagenes/Caravana.png" class="d-block w-100" alt="...">
+                          <h2>Modelo No123</h2>
+                          <button type="button" class="alquilar btn btn-info mx-auto">ALQUILAR</button>
+                        </div>
+                        <div class="col">
+                          <img src="./imagenes/Caravana.png" class="d-block w-100" alt="...">
+                          <h2>Modelo No123</h2>
+                          <button type="button" class="alquilar btn btn-info mx-auto">ALQUILAR</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="container">
+                      <div class="row">
+                        <div class="col">
+                          <img src="./imagenes/Caravana.png" class="d-block w-100" alt="...">
+                          <h2>Modelo No123</h2>
+                          <button type="button" class="alquilar btn btn-info mx-auto">ALQUILAR</button>
+                        </div>
+                        <div class="col">
+                          <img src="./imagenes/Caravana.png" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="col">
+                          <img src="./imagenes/Caravana.png" class="d-block w-100" alt="...">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="carousel-item">
+                    <div class="container">
+                      <div class="row">
+                        <div class="col">
+                          <img src="./imagenes/Caravana.png" class="d-block w-100" alt="...">
+                          <h2>Modelo No123</h2>
+                          <button type="button" class="alquilar btn btn-info mx-auto">ALQUILAR</button>
+                        </div>
+                        <div class="col">
+                          <img src="./imagenes/Caravana.png" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="col">
+                          <img src="./imagenes/Caravana.png" class="d-block w-100" alt="...">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon bg-dark" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                  <span class="carousel-control-next-icon bg-dark" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+
+      </section>
+
+    </main>
     
     
 
