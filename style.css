@@ -114,4 +114,11 @@ y el formulario del header*/
  #carousel h3 {
      margin-left: 10rem;
  }
+ 
+ #alquiler-de-autocaravanas {
+    background-image: url(./imagenes/Foto\ medio.png);
+    background-size: 100%;
+    width: 100%;
+    height: 50rem;
+ }
 
