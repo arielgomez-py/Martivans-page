@@ -105,16 +105,43 @@ y el formulario del header*/
     font-family: 'Oswald', sans-serif;
 }
 
+/*Estilos boton alquilar que tiene como clase alquilar*/
 .alquilar {
     width: 15rem;
     color: white;
     font-size: 1.8rem;
     margin-left: 8rem;
 }
+
+/*Agregando un margi top a la seccion del carrusel*/
+#tus-nuevos-compañeros-de-viaje {
+    margin-top: 5rem;
+}
+
+/*Estilos del encabezado del carrusel*/
+#tus-nuevos-compañeros-de-viaje h2 {
+    font-family: "Oswald" , sans-serif;
+    color: rgb(12, 12, 12);
+    font-size: 3rem;
+}
+
+#tus-nuevos-compañeros-de-viaje small {
+    font-size: 18px;
+    font-family: "Lato";
+    color: rgb(51, 51, 51);
+}
+/* rectangulito que aparece ente el small y las otras imagenes*/
+.rectangulo {
+    background-color: rgb(94, 63, 191);
+    width: 6.4rem;
+    height: 0.5rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
  #carousel h3 {
      margin-left: 10rem;
  }
- 
+ /* estilo de elementos de la seccion alquiler-de-autocarabanas */
  #alquiler-de-autocaravanas {
     background-image: url(./imagenes/Foto\ medio.png);
     background-size: 100%;
@@ -122,6 +149,7 @@ y el formulario del header*/
     width: 100%;
     height: 60rem;
     color: white;
+    margin-top: 5rem;
  }
 
 #alquiler-de-autocaravanas h1 {
@@ -138,5 +166,43 @@ y el formulario del header*/
     color: white;
     font-size: 1.8rem;
  }
+
+ /* Estilos de la seccion la-oferta-de-alquiler-de-autocarabanas*/
+ #la-oferta-de-alquiler-de-autocarabanas {
+     margin-top: 4rem;
+ }
+ /* estilo de elemntos de la seccion la-oferta-de-alquiler-de-autocarabanas */
+ #la-oferta-de-alquiler-de-autocarabanas h1 {
+     color: black;
+     font-size: 3rem;
+     font-family: 'Oswald', sans-serif;
+}
+
+ #la-oferta-de-alquiler-de-autocarabanas small {
+    font-size: 1.8rem;
+    font-family: "Lato";
+ }
+
+
+#la-oferta-de-alquiler-de-autocarabanas h2 {
+    font-size: 2.8rem;
+    font-family: "Oswald", sans-serif;
+    color: rgb(106, 219, 216);
+    line-height: 1.2;
+    left: 885.937px;
+    top: 2703.702px;
+    z-index: 20;
+}
+
+#la-oferta-de-alquiler-de-autocarabanas p {
+    font-size: 16px;
+    font-family: "Lato";
+    color: rgb(51, 51, 51);
+    line-height: 1.375;
+}
+
+.la-oferta-de-alquiler-de-autocaravanas {
+
+}
 
 
