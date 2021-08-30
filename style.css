@@ -114,7 +114,7 @@ y el formulario del header*/
     margin-left: 8rem;
 }
 
-/*Agregando un margi top a la seccion del carrusel*/
+/*Agregando un margin top a la seccion del carrusel*/
 #tus-nuevos-compañeros-de-viaje {
     margin-top: 5rem;
 }
@@ -175,7 +175,7 @@ y el formulario del header*/
  #la-oferta-de-alquiler-de-autocarabanas {
      margin-top: 4rem;
  }
- /* estilo de elemntos de la seccion la-oferta-de-alquiler-de-autocarabanas */
+ /* estilo de elementos de la seccion la-oferta-de-alquiler-de-autocarabanas */
  #la-oferta-de-alquiler-de-autocarabanas h1 {
      color: black;
      font-size: 3rem;
@@ -210,5 +210,10 @@ y el formulario del header*/
     height: 9rem;
 }
 
+#momentos-martivans {
+    width: 100%;
+    height: 55rem;
+    background-color:rgb(106, 219, 216);
+}
 
 
