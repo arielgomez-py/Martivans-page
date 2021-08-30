@@ -62,8 +62,9 @@ y el formulario del header*/
 .text-form button {
     font-size: 2rem;
     color: white;
-    width: 18rem;
+    width: 19rem;
     font-family: 'Oswald', sans-serif;
+    background-color: rgb(106, 219, 216);
 }
 
 .alquiler_campers_caravanas {
@@ -154,10 +155,13 @@ y el formulario del header*/
 
 #alquiler-de-autocaravanas h1 {
     margin-top: 25rem;
+    font-family: 'Oswald', sans-serif;
+    font-size: 5rem;
 }
 
-#alquiler-de-autocaravanas {
+#alquiler-de-autocaravanas p {
     font-size: 1.8rem;
+    font-family: 'Lato', sans-serif;
 }
 
 /* Estilos del boton empezar*/
@@ -185,7 +189,7 @@ y el formulario del header*/
 
 
 #la-oferta-de-alquiler-de-autocarabanas h2 {
-    font-size: 2.8rem;
+    font-size: 2.5rem;
     font-family: "Oswald", sans-serif;
     color: rgb(106, 219, 216);
     line-height: 1.2;
@@ -195,14 +199,16 @@ y el formulario del header*/
 }
 
 #la-oferta-de-alquiler-de-autocarabanas p {
-    font-size: 16px;
+    font-size: 15px;
     font-family: "Lato";
     color: rgb(51, 51, 51);
     line-height: 1.375;
 }
 
-.la-oferta-de-alquiler-de-autocaravanas {
-
+#la-oferta-de-alquiler-de-autocarabanas img {
+    width: 9rem;
+    height: 9rem;
 }
+
 
 
