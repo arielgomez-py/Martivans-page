@@ -238,9 +238,15 @@ y el formulario del header*/
     margin-bottom: 2rem;
 }
 
-#momentos-martivans .carousel-control-prev {
-    margin-right: 4rem;
+/*Estilos del tesxto que esta debajo de la foto circular*/
+#momentos-martivans p {
+    font-size: "Raleway";
+    font-size: 1.8rem;
+    color: white;
+    line-height: 1.2;
+    z-index: 48;
 }
+
 
 
 
