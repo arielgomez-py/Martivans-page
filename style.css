@@ -238,13 +238,47 @@ y el formulario del header*/
     margin-bottom: 2rem;
 }
 
-/*Estilos del tesxto que esta debajo de la foto circular*/
+/*Estilos del texto que esta debajo de la foto circular*/
 #momentos-martivans p {
     font-size: "Raleway";
     font-size: 1.8rem;
     color: white;
     line-height: 1.2;
     z-index: 48;
+}
+
+/*Estilos del footer*/
+
+/* Estilo de los encabezados*/
+#footer h2 {
+    font-size: 2rem;
+    font-family: "Oswald";
+    color: rgb(12, 12, 12);
+    line-height: 1.2;
+}
+
+#footer p {
+    font-size: 16px;
+    font-family: "Lato";
+    color: rgb(51, 51, 51);
+    text-align: left;   
+}
+
+#footer li {
+    list-style: none;
+}
+
+/*Estilo del logo de martivans que aparece en el footer*/
+#footer .logo {
+    margin-top: 10rem;
+} 
+
+/*Estilo del span Martivans 2021 | Aviso Legal  |  Politica de privacidad*/
+#footer span {
+    margin-top: 1rem;
+    font-size: 16px;
+    font-family: "Lato";
+    color: rgb(51, 51, 51);
 }
 
 
