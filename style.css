@@ -210,11 +210,20 @@ y el formulario del header*/
     height: 9rem;
 }
 
+/*Estilos del la seccion momentos martivans*/
 #momentos-martivans {
     width: 100%;
     height: 55rem;
     background-color:rgb(106, 219, 216);
 }
 
+/*Rectangulito blanco*/
+.rectangulo-blanco {
+    background-color: white;
+    width: 6.4rem;
+    height: 0.5rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
 
 
