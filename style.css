@@ -12,6 +12,7 @@ header {
     font-size: 62.5%;
 }
 
+/*Estilos del header*/
 #header {
     background-image: url(./imagenes/Foto\ Home.png);
     background-size: cover;
@@ -83,7 +84,7 @@ y el formulario del header*/
 
 .formulario {
     background-color:white;
-    margin-left: 15.5rem;
+    margin-right: 5rem;
 }
 .formulario span {
     color: black;

@@ -21,6 +21,7 @@
     <!--Header-->
     <header id="header">
       <div class="container-fluid">
+
         <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
           <div class="container-fluid">
             <a class="navbar-brand" href="#">
@@ -51,9 +52,9 @@
           </div>
         </nav>
       </div>
-      <div class="container-fluid text-form">
-        <div class="row">
-          <div class="col-lg-6 d-none d-lg-block">
+      <div class="container-fluid text-form ">
+        <div class="row justify-content-between">
+          <div class="col-lg-6 d-none d-lg-block"> <!--cuando el dispositivo es pequenno desaparece esta columna-->
             <h1>Alquiler de autocaravanas</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mattis mollis fermentum.
               Vivamus et est eu mauris accumsan convallis. Integer sit amet est massa.
@@ -67,22 +68,22 @@
           <div class="col-12 col-lg-4 formulario">
             <div class="container alquiler_campers_caravanas">
               <div class="row">
-                <div class="col">
+                <div class="col-10 col-lg-12">
                   <h2>ALQUILER DE CAMPERS Y CARAVANAS</h2>
                 </div>
               </div>
               <div class="row">
-                <div class="col-md-6">
+                <div class="col-12 col-lg-6">
                   <span>Fecha recogida</span>
                   <input type="date" class="form-control">
                 </div>
-                <div class="col-md-6 ">
+                <div class="col-12 col-lg-6 ">
                   <span>Fecha entrega</span>
                   <input type="date" class="form-control">
                 </div>
               </div>
               <div class="row mt-3">
-                <div class="col-12">
+                <div class="col">
                   <span>Tipo de vehículo</span>
                   <label class="visually-hidden" for="inlineFormSelectPref">Preference</label>
                   <select class="form-select" id="inlineFormSelectPref">
